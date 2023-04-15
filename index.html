@@ -1,0 +1,260 @@
+<!--Alice Williams
+    CS 446
+    lab1
+    index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Alice's Homepage</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+
+  <body id="body">	
+    <main>
+		<img src="image.jpg" alt="Profile Picture">
+		<!-- HEADER -->
+		<section>
+			<h1 class="lrg" id="top">Alice Williams</h1>
+		</section>
+		
+		<button id="dark" onclick="darkToggle()">Toggle Dark Mode!</button>
+		
+		<!-- ABOUT -->
+		<section>
+			<h1 class="blue gradient">About</h1>
+			<p>Pronouns: She / Her / Hers</p>
+			<p>Age: 29</p>
+			<p>Birthday: February 5th, 1993</p>
+			<p>Birthplace: Dallas, Texas</p>
+			<br></br>
+			<p>Salutations, welcome to my home-page that I made in CS 446.</p>
+			<p>I'm a CWU student in my junior year of a bachelor's degree,</p>
+			<p>my field of study is computer science with a minor in math.</p>
+			<p>Have a great day!</p>
+			<marquee><p>Signed by Alice 09.25.22</p></marquee>
+		</section>
+		
+		<!-- INTERESTS -->
+		<section>
+			<h1 class="blue gradient">Interests</h1>
+			<ul>
+				<li><p>Reading older literature</p></li>
+				<li><p>Over-the-table chess</p></li>
+				<li><p>Low-level programming</p></li>
+				<li><p>Political discourse</p></li>
+			</uL>
+			<p>Extracurriculars of mine include being involved as:</p>
+			<ul>
+				<li><p>President of the computer science club</p></li>
+				<li><p>Computer science lab TA</p></li>
+				<li><p>Political canvasser for my congresswoman</p></li>
+			</ul>
+		</section>
+		
+		<!-- COURSES -->
+		<section>
+			<h1 class="blue gradient">Courses</h1>
+		</section>
+		<section>
+			<label for="prog"><p>GPA: 3.861 Undergraduate degree progress: 108 out of 180 credits</p></label>
+			<br></br>
+			<meter class="prog" id="prog" min="0" value="108" max="180"> Percentage </meter>
+			<p>Here are the courses I have taken at CWU (green entries denote being current courses):</p>
+			<table>
+				<tr>
+					<th><h3>Course Number</h3></th>
+					<th><h3>Course Title</h3></th>
+					<th><h3>Course Taken</h3></th>
+				</tr>
+				<tr>
+					<td><p class="green">CS 446</p></td>
+					<td><p class="green">User Interface Design and Development</p></td>
+					<td><p class="green">Fall 2022</p></td>
+				</tr>
+				<tr>
+					<td><p class="green">CS 361</p></td>
+					<td><p class="green">Principles of Language Design I</p></td>
+					<td><p class="green">Fall 2022</p></td>
+				</tr>
+				<tr>
+					<td><p class="green">CS 380</p></td>
+					<td><p class="green">Introduction to Software Engineering</p></td>
+					<td><p class="green">Fall 2022</p></td>
+				</tr>
+				<tr>
+					<td><p class="green">MATH 330</p></td>
+					<td><p class="green">Discrete Mathematics</p></td>
+					<td><p class="green">Fall 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 312</p></td>
+					<td><p>Computer Architecture II</p></td>
+					<td><p>Summer 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>MATH 265</p></td>
+					<td><p>Linear Algebra I</p></td>
+					<td><p>Summer 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>HUM 101</p></td>
+					<td><p>Exploring Cultures in the Ancient World</p></td>
+					<td><p>Summer 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 302</p></td>
+					<td><p>Advanced Data Structures and File Processing</p></td>
+					<td><p>Spring 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 325</p></td>
+					<td><p>Technical Writing in Computer Science</p></td>
+					<td><p>Spring 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>MATH 173</p></td>
+					<td><p>Calculus II</p></td>
+					<td><p>Spring 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>PEF 150</p></td>
+					<td><p>Beginning Yoga</p></td>
+					<td><p>Spring 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>PEID 138</p></td>
+					<td><p>Karate</p></td>
+					<td><p>Spring 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>ENG 102</p></td>
+					<td><p>Academic Writing II: Reasoning and Research on Social Justice</p></td>
+					<td><p>Winter 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>HIST 101</p></td>
+					<td><p>World History to 1500</p></td>
+					<td><p>Winter 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>MATH 260</p></td>
+					<td><p>Sets and Logic</p></td>
+					<td><p>Winter 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>PEF 150</p></td>
+					<td><p>Beginning Yoga</p></td>
+					<td><p>Winter 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>PEID 138</p></td>
+					<td><p>Karate</p></td>
+					<td><p>Winter 2022</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 301</p></td>
+					<td><p>Data Structures</p></td>
+					<td><p>Fall 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 311</p></td>
+					<td><p>Computer Architecture I</p></td>
+					<td><p>Fall 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>ENG 101</p></td>
+					<td><p>Academic Writing I: Critical Reading and Responding</p></td>
+					<td><p>Fall 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>TH 101</p></td>
+					<td><p>Appreciation of Theatre and Film</p></td>
+					<td><p>Fall 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>MATH 172</p></td>
+					<td><p>Calculus I</p></td>
+					<td><p>Summer 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 111</p></td>
+					<td><p>Programming Fundamentals II</p></td>
+					<td><p>Summer 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 112</p></td>
+					<td><p>Introduction to Data Science in Python</p></td>
+					<td><p>Summer 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>COTS 184</p></td>
+					<td><p>First Year Experience</p></td>
+					<td><p>Spring 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 107</p></td>
+					<td><p>Make a Game with Computer Science</p></td>
+					<td><p>Spring 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>CS 110</p></td>
+					<td><p>Programming Fundamentals I</p></td>
+					<td><p>Spring 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>MATH 154</p></td>
+					<td><p>Pre-Calculus Mathematics II</p></td>
+					<td><p>Spring 2021</p></td>
+				</tr>
+				<tr>
+					<td><p>UNIV 101</p></td>
+					<td><p>Transition to CWU</p></td>
+					<td><p>Spring 2021</p></td>
+				</tr>
+			</table>
+		</section>
+		
+		<!-- SUBMIT CLASS UPDATE -->
+		<section>
+			<h1 class="blue gradient">Submit Class Update</h1>
+			<form action="" method="get" class="form">
+				<div class="form">
+					<label for="number"><p>&nbsp;Course Number: </p></label>
+					<input type="text" name="number" id="number" maxlength="10" required>
+				</div>
+				<div class="form">
+					<label for="title"><p>&nbsp;Course Title: </p></label>
+					<input type="text" name="title" id="title" maxlength="100" required>
+				</div>
+				<div class="form">
+					<label for="taken"><p>&nbsp;Course Taken: </p></label>
+					<input type="text" name="taken" id="taken" maxlength="15" required>
+				</div>
+				<div class="form">
+					<input class="btn ten" type="submit" value="Submit!">
+				</div>
+			</form>
+		</section>
+    </main>
+  </body>
+  <footer class="gradient"><a href="#top">>Back to top of page<</a></footer>
+  <footer class="gradient" id="date-foot"></footer>
+</html>
+
+<!-- Some homemade JavaScript for darkmode toggle and timestamp in footer -->
+<script>
+	<!-- TIME/DATE INJECTION -->
+	document.getElementById('date-foot').innerHTML += " " + new Date() + ", written by myself, last updated on Sep 25 2022.";
+	
+	<!-- DARKMODE CLASS INJECTION/REMOVAL -->
+	function darkToggle() {
+		if (!document.getElementById("body").classList.contains("darkmode")) {
+			document.getElementById("body").classList.add("darkmode");
+		} else {
+			document.getElementById("body").classList.remove("darkmode");
+		}
+	}
+</script>

@@ -1,0 +1,215 @@
+/*  Alice Williams
+    CS 446
+    lab1
+    main.css*/
+
+body {
+	border: 3px BlueViolet solid;
+	font-size: 1.1rem;
+}
+
+.darkmode {
+	border: 3px LightBlue solid;
+	background: DarkSlateGrey;
+	color: White;
+}
+
+@keyframes pulse {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+.gradient {
+	background: rgb(2,0,36);
+	background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,216,230,1) 0%, rgba(238,130,238,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,216,230,1) 0%, rgba(238,130,238,1) 100%);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,216,230,1) 0%, rgba(238,130,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ee82ee",GradientType=1);
+	background-size: 400% 400%;
+	animation: pulse 3.8s ease infinite;	
+}
+
+footer {
+	border-top: 1px solid;
+	border-bottom: 0;
+	background-color: LightBlue;
+	color: DarkBlue;
+	font-size: 12pt;
+	text-align: center;
+}
+
+footer#date-foot {
+	border-top: 0;
+}
+
+button#dark {
+	margin-left: 2.5%;
+	margin-top: -1%;
+	background: Turquoise;
+	color: DarkSlateGrey;
+	padding: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 100%;
+}
+
+a {
+	color: Blue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: BlueViolet;
+}
+
+a:hover {
+	color: DeepPink;
+}
+
+.blue {
+	background-color: LightBlue;
+	color: DarkBlue;
+	border: 1px DarkBlue solid;
+	border-left: 0;
+	border-right: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+img {
+	position: absolute;
+	right: 10px;
+	margin-top: 0.5%;
+	margin-right: 2.5%;
+	box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.5), 3px 3px 4px 2px rgba(0, 0, 0, 0.15);
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 0.75%;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin: 0.5em;
+}
+
+marquee {
+	color: DarkBlue;
+	width: 9%;
+	margin-left: 1%;
+}
+
+ul  {
+  list-style: lower-greek;
+}
+
+table {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table tr:nth-child(2n) {
+	background-color: LightBlue;
+	color: DarkBlue;
+}
+
+td, tr, th {
+	padding: 0;
+	margin: 0;
+	border: 1px solid;
+	text-align: center;
+}
+
+th {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+input.btn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25rem;
+	padding: 6px;
+	padding-left: 18px;
+	padding-right: 18px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.lrg {
+	font-size: 175%;
+}
+
+.ten {
+	margin-left: 10%;
+}
+
+select {
+	margin: 1%;
+}
+
+.green {
+	color: green;
+}
+
+form {
+	border: 1px solid;
+	padding-top: 1%;
+	padding-right: 1%;
+	margin-left: 5%;
+	margin-bottom: 1%;
+}
+
+form.form {
+    display: table;
+}
+
+div.form {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.prog {
+	float: left;
+	width: 80%;
+	margin-top: -25px;
+	margin-left: 10%;
+}
+
+meter {
+	margin-top: 10px;
+	color: Green;
+	width: 250px;
+}
+
+input[type=text] {
+	width: 450px;
+	border: 2px solid;
+	padding: 8px 6px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
